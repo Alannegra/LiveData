@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntrenadorFragment">
+
+
+
+    <ImageView
+        android:id="@+id/ejercicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"/>
+
+    <!--<ImageView
+        android:id="@+id/ejercicio2"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/ic_baseline_sports_basketball_24"
+        android:gravity="center"/>-->
+
+    <TextView
+        android:id="@+id/repeticion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"/>
+
+
+    <!--<ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:visibility="gone"
+        android:src="@drawable/ic_baseline_sports_basketball_24"
+        android:gravity="center" />-->
+
+
+        <TextView
+            android:id="@+id/repeticion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/repeticion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/cambio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF5722"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:text="¡SE ACABO!"
+        android:gravity="center"
+        android:textSize="48sp"/>
+</FrameLayout>
+
